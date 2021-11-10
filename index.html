@@ -25,7 +25,7 @@
   }
   function checkCookie() {
     let ban = getCookie("banned");
-    if (ban != "1") {
+    if (ban == "1") {
       alert("You are banned.");
     } else {
       window.location.replace("https://tuan-os.github.io/home");
